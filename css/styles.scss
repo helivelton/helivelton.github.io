@@ -1,3 +1,6 @@
+body {
+  background-color: #eee;
+}
 .our-class {
   position: absolute;
   bottom: 2%;
@@ -13,4 +16,12 @@
 
 .heart-icon {
   color: lightblue;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to right, navy, blue, lightblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: fantasy;
+  font-weight: bold;
 }
